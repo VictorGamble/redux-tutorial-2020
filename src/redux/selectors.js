@@ -1,3 +1,6 @@
+import { visibilityFilter } from '../components/VisibilityFilters';
+import { VISIBILITY_FILTERS } from "../constants";
+
 export const getTodoList = store =>
   store && store.todos ? store.todos.allIds : [];
 
